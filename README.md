@@ -22,25 +22,26 @@ The output is created in working directory with the name of xxxx.txt
 Code BreakDown:
 
 Objective 1:
-Read ( X-train and X_test) then merge them togather.
-Do the same for Y values and Subject.
+Read ( X-train and X_test) then merge them together.
+Do the same for Y values and Subject. 
+the result is Xmerged, Ymerged and Smerged
 
 Objective 2 
 read Feature from feature.txt
-fetch only features that have mean() or STD() including MeanFreq as the question was not specific.
-lable the marged (X) dataframe from objective 1 by the fetched feature names.
+fetch in "extracted_features" only features that have mean() or STD()-including MeanFreq as the question was not specific- in 
+lable the Xmerged dataframe from objective 1 by the fetched feature names.
 
 Objetive 3
 read the activity lables from Activiy_labels.txt
-replace the number with the extracted text.
+replace the number with the extracted text using Ymerged dataframe.
 
 Objective 4
 Lable the columns by apporpriate names (Subject, Activity)
-merged the three table sets togather(Subject,Activity,Features) into new dataframe (clean_Data)
+merged the three table sets togather(Subject,Activity,Features) into new dataframe (cleanData)
 
 Objective 5
-for multiple values of the same subject and activity calculate one average value.
-sort the result by Subject number then by Activity to make the result tidier.
+calculate one average value for multiple values of the same subject and activity and save it in aggr.data. using aggregate function
+sort the result by Subject number then by Activity to make the result tidier. using Order()
 #######
 Trimimg and making the data tidier
 ####
