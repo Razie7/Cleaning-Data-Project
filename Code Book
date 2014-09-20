@@ -1,0 +1,82 @@
+1.	Subject   
+	The id number of the volunteer (person)
+     1:30 unique identifier represent the who carried out the experiment 
+
+2.	Activity 
+This represents the six activity each volunteer will do
+•	1: Walking
+•	2: Walking_U
+•	3: Walking_D
+•	4: Sitting
+•	5: Standing
+•	6: Laying
+Features
+Feature of the captured Signals have been averaged per each volunteer and activity:
+3.	TBA-M-n    
+•	"tBodyAcc-mean()-X"        
+•	"tBodyAcc-mean()-Y"              
+•	"tBodyAcc-mean()-Z"       
+4.	TBA-S-n           
+•	"tBodyAcc-std()-X" 
+•	"tBodyAcc-std()-Y"               
+•	"tBodyAcc-std()-Z"               
+5.	TGA-M-n
+•	"tGravityAcc-mean()-X"         = 
+•	"tGravityAcc-mean()-Y"           
+•	"tGravityAcc-mean()-Z"   
+6.	TGA-S-n
+•	"tGravityAcc-std()-X
+•	"tGravityAcc-std()-Y"             
+•	"tGravityAcc-std()-Z"    
+  
+7.	TBAJ-M-n      
+•	"tBodyAccJerk-mean()-X"          
+•	"tBodyAccJerk-mean()-Y"          
+•	["tBodyAccJerk-mean()-Z"      
+8.	TBAJ-S-n
+•	"tBodyAccJerk-std()-X" 
+•	"tBodyAccJerk-std()-Y"            
+•	"tBodyAccJerk-std()-Z"
+9.	TBGJ-M-n
+•	"tBodyGyro-mean()-X
+•	"tBodyGyro-mean()-Y"             
+•	"tBodyGyro-mean()-Z"  
+
+10.	TBG-S-n
+•	"tBodyGyro-std()-X" -
+•	tBodyGyro-std()-Y"              
+•	"tBodyGyro-std()-Z"   
+11.	TBGJ-M-n
+•	"tBodyGyroJerk-mean()-X"	 	         
+•	"tBodyGyroJerk-mean()-Y"         
+•	"tBodyGyroJerk-mean()-Z"         
+12.	TBGJ-S-n
+•	"tBodyGyroJerk-std()-X"	         
+•	"tBodyGyroJerk-std()-Y"           
+•	"tBodyGyroJerk-std()-Z"
+13.	TBAM-M          
+•	"tBodyAccMag-mean()"    
+14.	TBAM-S   
+•	"tBodyAccMag-std()"    
+15.	TGAM-M
+•	"tGravityAccMag-mean()"  
+16.	TGAM-S
+•	"tGravityAccMag-std()"   
+17.	TBAJM-M        
+•	"tBodyAccJerkMag-mean()"   
+18.	TBAJM-S
+•	"tBodyAccJerkMag-std()"   
+19.	TBGM-M
+•	"tBodyGyroMag-mean()"  
+20.	TBGM-S           
+•	"tBodyGyroMag-std()"  
+21.	TBGJM-M
+•	"tBodyGyroJerkMag-mean()"    
+22.	TBGJM-S     
+•	"tBodyGyroJerkMag-std()"   
+
+ 	-M- : Mean
+-S-: Standard Deviation
+-n: represent the Dimensional could be (X, Y or Z)
+
+Note: since the question has not specified whether we should find the Mean and STD for Time or Fourier series signals, I used time series (body linear acceleration and angular velocity in three dimensional-signals (X, Y and Z), as I know from the fact that-I have electrical engineering background- those values could be enough to serve the experiment.
