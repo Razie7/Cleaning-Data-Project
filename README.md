@@ -28,7 +28,8 @@ the result is Xmerged, Ymerged and Smerged
 
 Objective 2 
 read Feature from feature.txt
-fetch in "extracted_features" only features that have mean() or STD()-including MeanFreq as the question was not specific- in 
+fetch in "extracted_features" only features that have mean() or STD()-including MeanFreq as the question was not specific.
+
 lable the Xmerged dataframe from objective 1 by the fetched feature names.
 
 Objetive 3
